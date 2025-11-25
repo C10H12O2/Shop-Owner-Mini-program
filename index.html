@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop Profit Calculator</title>
 </head>
+
 <body>
-    
+    <h2>Shop Profit Calculator</h2>
+    <p>I've made this project with the goal set to calculate:</p>
+    <ul>
+        <li>Discount on a given item</li>
+        <li>Profit from selling an item after discount</li>
+        <li>Loss if the selling price is lower than the cost</li>
+        <li>Total profit from multiple items sold</li>
+    </ul>
+
+    <label>Original Price:</label>
+    <input type="number" id="originalPrice"><br>
+
+    <label>Discount Price:</label>
+    <input type="number" id="discountPrice"><br>
+
+    <label>Selling Price:</label>
+    <input type="number" id="sellPrice"><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h3>Results:</h3>
+    <p id="discountResult"></p>
+    <p id="profitResult"></p>
+    <p id="lossResult"></p>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
