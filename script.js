@@ -21,7 +21,7 @@ function calculate() {
     }
 
     else {
-        document.getElementById("profitResult").innerHTML = "No Profit No Loss"
+        document.getElementById("profitResult").innerHTML = "There's no profit as well as no loss."
         document.getElementById("lossResult").innerHTML = ""
 
     }
